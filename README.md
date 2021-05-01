@@ -1,5 +1,4 @@
-# 15-Puzzle
-<h1> CS 288 </h1>
+<h1> CS 288 - 15 Puzzle </h1>
 <hr>
 <ol>
   <li>Run 'GenGemPuzzle.c' to generate a <b>solvable</b> puzzle.</li>
