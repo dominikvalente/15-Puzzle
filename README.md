@@ -1,5 +1,8 @@
 # 15-Puzzle
 <h1> CS 288 </h1>
-1. Run 'GenGemPuzzle.c' to generate a <b>solvable</b> puzzle.
-2. Use the generated output in the exact sequence as command line arguments for the puzzle program.
+<ol>
+  <li>Run 'GenGemPuzzle.c' to generate a <b>solvable</b> puzzle.</ol>
+  <li>Use the generated output in the exact sequence as command line arguments for the puzzle program.</li>
+</ol>
+  
 This program implements a solution to solving the 15-puzzle problem using A* Search Algorithm and Linked Lists.
