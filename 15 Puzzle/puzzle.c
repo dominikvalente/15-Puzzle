@@ -316,9 +316,6 @@ int main(int argc,char **argv) {
 		merge_to_open(); /* New open list */
 		copen->next=closed;
 		closed=copen;		/* New closed */
-		/* print out something so that you know your
-		 * program is still making progress
-		 */
 		iter++;
 		if(iter %1000 == 0)
 			printf("iter %d\n", iter);
