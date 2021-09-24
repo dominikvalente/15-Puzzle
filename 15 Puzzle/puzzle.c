@@ -130,13 +130,8 @@ void swap(int row1,int column1,int row2,int column2, struct node * pnode){
 
 /*update the f,g,h function values for a node */
 void update_fgh(struct node *pnode){
-    /*
-        manhattan distance -  a taxicab geometry in which the usual distance function or metric of
-        euclidean geometry is replaced by a new metric in which the distance between two points is
-        the sum of the absolute differences of their cartesian coordinates
-
-        f(n) = g(n) + h(n)
-    */
+     //manhattan distance, f(n) = g(n) + h(n)
+    
 
     //update g value
     if(pnode->parent != NULL){
